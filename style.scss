@@ -1,0 +1,76 @@
+
+body {
+  background-image: url('image_background.png');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+}
+
+#canvas {
+  display: inline;
+  width:1300;
+  height:900;
+ }
+
+.headers {
+  color: White;
+  background: #F37320;
+  text-align: center;
+  font-family: ubuntu;
+  margin: 0px 0px 0px 0px;
+
+
+
+}
+
+.header_1{
+  color: white;
+  text-align: center;
+  background: #341441;
+  font-family: monospace;
+
+
+}
+
+.main_heading {
+  position: relative;
+  background: #F37390;
+  margin: 0px 0px 0px 0px;
+  color: Black;
+  text-align: center;
+  font-family: Arial;
+}
+
+.node {
+ 	margin: 140px 0px 300px 10px;
+	width:50%;
+	position: absolute;
+	right: 00px;
+	left: 25px;
+
+}
+
+.right_block {
+	position: relative;
+	float: right;
+  color: white;
+	width: 350px;
+	text-align: left;
+	margin: 140px 10px 10px 10px;
+	font-size: 14;
+	font-family: Arial;
+	overflow: Auto;
+
+ }
+
+
+.left_block {
+	position: static;
+	float: left;
+  color: white;
+	width: 350px;
+	text-align: left;
+	margin: 140px 10px 10px 10px;
+	font-size: 14;
+	font-family: Arial;
+ }
